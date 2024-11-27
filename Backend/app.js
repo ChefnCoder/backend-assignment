@@ -23,7 +23,7 @@ mongoose.connect(process.env.MONGO_URI, {
 
   // Define the rate limit
   const apiLimiter = rateLimit({
-      windowMs: 1 * 60 * 1000, // 1 minute
+      windowMs: 1 * 60 * 1000,
       max: 100, 
       message: {
           error: 'Too many requests, please try again after a minute.',
