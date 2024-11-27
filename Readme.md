@@ -142,7 +142,7 @@ This API fulfills the following requirements as per the assignment:
 ---
 
 ## **Deployment**
-The application is deployed at: http://backend-assignment-t61b.onrender.com/dffbda7c
+The application is deployed at: http://backend-assignment-t61b.onrender.com/
 - **Live Endpoints**:
   - Shorten a URL: `POST http://backend-assignment-t61b.onrender.com/api/shorten`
   - Redirect to Original URL: `GET  http://backend-assignment-t61b.onrender.com/<shortId>`
